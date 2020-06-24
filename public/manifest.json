@@ -1,0 +1,42 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.7",
+    "version": "1.0.0",
+    "id": "1ba7f7c8-d3ed-4cb2-99a8-86a4801efd80",
+    "packageName": "mlestimate",
+    "developer": {
+        "name": "medialesson",
+        "websiteUrl": "https://www.media-lesson.com",
+        "privacyUrl": "https://www.media-lesson.com/de/datenschutz.html",
+        "termsOfUseUrl": "https://www.media-lesson.com/de/impressum.html"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "mlEstimate",
+        "full": "ml Estimate"
+    },
+    "description": {
+        "short": "ml Estimate",
+        "full": "This is for doing the estimation easily"
+    },
+    "accentColor": "#FFFFFF",
+    "configurableTabs": [
+        {
+            "configurationUrl": "https://ml-estimate-app.azurewebsites.net/config.html",
+            "canUpdateConfiguration": true,
+            "scopes": [
+                "team"
+            ]
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "ml-estimate-app.azurewebsites.net"
+    ]
+}
