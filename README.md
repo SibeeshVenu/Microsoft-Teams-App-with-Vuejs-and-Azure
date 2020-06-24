@@ -1,24 +1,7 @@
-# ml-estimate
+# Related articles
 
-## Project setup
-```
-npm install
-```
+You can read the articles here:
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+[Create Custom Web Apps for Microsoft Teams Using Azure Function, Node Js](https://sibeeshpassion.com/create-custom-web-apps-for-microsoft-teams-using-azure-function-node-js/)
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[Create Microsoft Teams App Using Vuejs, Azure, JavaScript SDK](https://sibeeshpassion.com/create-microsoft-teams-app-using-vuejs-azure-javascript-sdk/).
